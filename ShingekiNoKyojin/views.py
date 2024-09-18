@@ -20,9 +20,7 @@ def sobre(request):
     <head><title>Sobre Shingeki no Kyojin</title></head>
     <body>
         <h1>Sobre Shingeki no Kyojin</h1>
-        <p>Shingeki no Kyojin (Attack on Titan) é um anime e mangá criado por Hajime Isayama. A história se passa em um mundo onde a humanidade vive cercada por enormes muralhas para se proteger de criaturas gigantescas chamadas Titãs, que devoram humanos. A trama segue Eren Jaeger, um jovem cujo objetivo é exterminar os Titãs após presenciar a destruição de sua cidade e a morte de sua mãe durante um ataque.
-
-        Conforme a série avança, os personagens descobrem segredos obscuros sobre os Titãs e a origem da própria humanidade, desvendando uma trama cheia de reviravoltas, ação e mistério. Shingeki no Kyojin é conhecida por seu enredo sombrio, batalhas intensas e questionamentos sobre liberdade, poder e sacrifício.</p>
+        <p>Shingeki no Kyojin (Attack on Titan) é um anime e mangá criado por Hajime Isayama.
     </body>
     </html>
     """
@@ -38,8 +36,6 @@ def perfil_usuario(request):
             <li>Nome: Levi Ackerman</li>
             <li>Regimento: Capitão do Esquadrão de Operações Especiais das Tropas de Exploração</li>
         </ul>
-        <p>Levi Ackerman é um dos personagens mais icônicos de Shingeki no Kyojin (Attack on Titan). Ele é o capitão do Esquadrão de Operações Especiais das Tropas de Exploração e é amplamente reconhecido como o soldado mais forte da humanidade. Levi é famoso por suas habilidades extraordinárias em combate contra Titãs e por sua personalidade séria e fria, mas com um forte senso de responsabilidade e dever.
-        Sua liderança, habilidade inigualável e história de vida trágica o tornam um dos personagens mais respeitados e admirados dentro do anime</p>
     </body>
     </html>
     """
