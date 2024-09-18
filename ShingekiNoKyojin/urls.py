@@ -21,14 +21,14 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('ShingekiNoKyojin.urls')),  # Incluindo as URLs do app snk_app
+    path('', include('ShingekiNoKyojin.urls')),  
 ]
 from django.urls import path
 from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),  # Página inicial
-    path('sobre/', views.sobre, name='sobre'),  # Página sobre
-    path('perfil/', views.perfil_usuario, name='perfil_usuario'),  # Página de perfil
+    path('sobre/', views.sobre, name='sobre'),  # Página sobre o anime
+    path('perfil/', views.perfil_usuario, name='perfil_usuario'),  # Página de perfil eu user um personagem
     path('contato/', views.contato, name='contato'),  # Página de contato
 ]
