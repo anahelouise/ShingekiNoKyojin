@@ -3,16 +3,7 @@
 from django.http import HttpResponse
 
 def index(request):
-    html = """
-    <html>
-    <head><title>Página Inicial</title></head>
-    <body>
-        <h1>Bem-vindo ao Shingeki no Kyojin!</h1>
-        <p>Esta é a página inicial.</p>
-    </body>
-    </html>
-    """
-    return HttpResponse(html)
+    return HttpResponse("Bem-vindo ao Shingeki no Kyojin! Esta é a página inicial.")
 
 def sobre(request):
     return HttpResponse("Sobre Shingeki no Kyojin")
