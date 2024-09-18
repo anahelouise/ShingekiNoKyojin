@@ -27,8 +27,8 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.index, name='index'),  # Página inicial
-    path('sobre/', views.sobre, name='sobre'),  # Página sobre o anime
-    path('perfil/', views.perfil_usuario, name='perfil_usuario'),  # Página de perfil eu usei um personagem
-    path('contato/', views.contato, name='contato'),  # Página de contato
+    path('', views.index, name='index'),  
+    path('sobre/', views.sobre, name='sobre'),
+    path('perfil/', views.perfil_usuario, name='perfil_usuario'),  
+    path('contato/', views.contato, name='contato'), 
 ]
